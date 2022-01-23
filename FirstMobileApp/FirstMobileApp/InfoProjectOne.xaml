@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FirstMobileApp.InfoProjectOne">
+             x:Class="FirstMobileApp.InfoProjectOne"
+            Title="Проект 1" >
   <!--Pages can be added as references or inline-->
     <ContentPage Title="О Проекте">
         <ScrollView>
             <FlexLayout  Direction="Column" >
-                <Label Text="ОПИСАНИЕ ПРОЕКТА 1:" TextColor="White" HorizontalTextAlignment="Center" Margin="0, 20, 0, 0"/>
+                    
                 <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                        Malesuada fames ac turpis egestas sed tempus urna.
@@ -55,8 +56,8 @@
                        vestibulum rhoncus. Ac tortor vitae purus faucibus ornare suspendisse sed. Senectus et 
                        netus et malesuada. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor.
                        Bibendum at varius vel pharetra vel turpis nunc eget lorem. Elit at imperdiet dui accumsan.
-                       Nisi est sit amet facilisis magna." TextColor="White" TextType="Html" 
-                HorizontalTextAlignment="Center" Margin="20, 30" FontSize="Body"/>
+                       Nisi est sit amet facilisis magna."  TextType="Html" 
+                HorizontalTextAlignment="Center" Margin="20, 30" FontSize="Body" TextColor="Gray"/>
             </FlexLayout>
         </ScrollView>
     </ContentPage>
@@ -102,16 +103,17 @@
         <ContentPage Title="Контакты">
             <ScrollView>
                 <FlexLayout  Direction="Column" >
-                    <Entry x:Name="Login" BackgroundColor="Gray"
-                Placeholder="Email"
+                <Entry x:Name="Login"
+                Placeholder="Login"
                 TextColor="White" 
                 HeightRequest="55" 
+                Background="#c0c0c0"
                 HorizontalTextAlignment="Center" Margin="30, 70, 30, 0"/>
 
                     <Entry x:Name="Mail" 
-                Placeholder="Login"
+                Placeholder="Mail"
                 IsPassword="True" 
-                Background="gray"
+                Background="#c0c0c0"
                 HeightRequest="55" 
                 HorizontalTextAlignment="Center"
                 TextColor="White" Margin="30, 50, 30, 0"/>
@@ -119,7 +121,7 @@
                     <Entry x:Name="Password" 
                 Placeholder="Number"
                 IsPassword="True" 
-                Background="gray"
+                Background="#c0c0c0"
                 HeightRequest="55" 
                 HorizontalTextAlignment="Center"
                 TextColor="White" Margin="30, 50, 30, 0"/>
@@ -127,7 +129,7 @@
                 
                 Placeholder="Adress"
                 IsPassword="True" 
-                Background="gray"
+                Background="#c0c0c0"
                 HeightRequest="55" 
                 HorizontalTextAlignment="Center"
                 TextColor="White" Margin="30, 50, 30, 0"/>

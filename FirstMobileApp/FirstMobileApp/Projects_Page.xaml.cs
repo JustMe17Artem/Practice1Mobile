@@ -22,9 +22,6 @@ namespace FirstMobileApp
             await Navigation.PushAsync(new InfoProjectOne());
         }
 
-        private void ProjectTwo_Clicked(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

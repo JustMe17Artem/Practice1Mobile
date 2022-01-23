@@ -4,7 +4,6 @@
              x:Class="FirstMobileApp.MainPage">
 
     <ScrollView>
-
         <FlexLayout Direction="Column" JustifyContent="SpaceAround" AlignContent="Center" >
             <StackLayout >
                 <Frame CornerRadius="120" Padding="0" BackgroundColor="#303030"
@@ -14,17 +13,14 @@
             </StackLayout>
 
             <StackLayout Margin="30">
-                <Entry x:Name="UserLogin" BackgroundColor="Gray"
-                    Text="{Binding ULogin}"
+                <Entry x:Name="UserLogin" 
                     Placeholder="Login"
                     TextColor="White" 
                     HeightRequest="55" 
                     HorizontalTextAlignment="Center"/>
                 <Entry x:Name="Password"
-                    Text="{Binding Password}"
                     Placeholder="Password"
                     IsPassword="True" 
-                    Background="gray"
                     HeightRequest="55" 
                     HorizontalTextAlignment="Center"
                     TextColor="White"/>
@@ -37,5 +33,4 @@
             </StackLayout>
         </FlexLayout>
     </ScrollView>
-
 </ContentPage>

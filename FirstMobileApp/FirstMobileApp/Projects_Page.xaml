@@ -1,12 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FirstMobileApp.Projects_Page">
-    <NavigationPage.TitleView>
-        <StackLayout>
-            <Button x:Name="AddProject" Text="+" BackgroundColor="#2196f3" FontSize="Body" Margin="200, 0, 0,0"/>
-        </StackLayout>
-    </NavigationPage.TitleView>
+             x:Class="FirstMobileApp.Projects_Page"
+             Title="ПРОЕКТЫ">
+    
     <ScrollView>
         <FlexLayout  Direction="Column" >
             <Button x:Name="ProjectOne" Clicked="ProjectOne_Clicked" Text="Проект 1" TextColor="White" 

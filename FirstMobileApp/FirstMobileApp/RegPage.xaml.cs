@@ -16,5 +16,10 @@ namespace FirstMobileApp
         {
             InitializeComponent();
         }
+
+        private async void RegistrationVerification_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
     }
 }

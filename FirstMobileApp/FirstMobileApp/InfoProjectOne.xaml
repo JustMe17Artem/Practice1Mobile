@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstMobileApp.InfoProjectOne">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="О Проекте">
+        <ScrollView>
+            <FlexLayout  Direction="Column" >
+                <Label Text="ОПИСАНИЕ ПРОЕКТА 1:" TextColor="White" HorizontalTextAlignment="Center" Margin="0, 20, 0, 0"/>
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                       Malesuada fames ac turpis egestas sed tempus urna.
+                       Aliquam id diam maecenas ultricies. Ipsum nunc aliquet 
+                       bibendum enim facilisis. Eleifend donec pretium vulputate 
+                       sapien nec sagittis aliquam malesuada bibendum. Id leo in 
+                       vitae turpis. Est velit egestas dui id. Etiam tempor orci 
+                       eu lobortis elementum nibh tellus molestie. Volutpat commodo 
+                       sed egestas egestas fringilla phasellus. Amet volutpat consequat
+                       mauris nunc. Malesuada fames ac turpis egestas maecenas pharetra 
+                       convallis posuere. At urna condimentum mattis pellentesque id. 
+                       Ac odio tempor orci dapibus ultrices in iaculis nunc. In metus 
+                       vulputate eu scelerisque felis imperdiet proin fermentum. Enim 
+                       nulla aliquet porttitor lacus luctus accumsan tortor posuere. 
+                       Nunc mattis enim ut tellus elementum sagittis vitae et. Amet 
+                       aliquam id diam maecenas ultricies mi. Viverra orci sagittis eu volutpat odio.
+
+                       Donec massa sapien faucibus et molestie. Quis hendrerit dolor magna eget. 
+                       Tristique risus nec feugiat in fermentum posuere. Gravida rutrum quisque 
+                       non tellus orci ac. Quam nulla porttitor massa id. Semper viverra nam libero
+                       justo laoreet sit amet. Quis lectus nulla at volutpat diam ut. Sit amet nulla
+                       facilisi morbi tempus iaculis urna id. Condimentum lacinia quis vel eros donec.
+                       Mi sit amet mauris commodo quis. Nibh tortor id aliquet lectus proin nibh nisl. 
+                       Vivamus at augue eget arcu dictum varius. Sit amet nisl purus in mollis nunc sed. 
+                       Vel pharetra vel turpis nunc eget lorem dolor sed. Et malesuada fames ac 
+                       turpis egestas integer eget. Eget nunc scelerisque viverra mauris in aliquam 
+                       sem fringilla. Sed libero enim sed faucibus turpis in. Sem fringilla ut morbi 
+                       tincidunt augue interdum. Venenatis urna cursus eget nunc scelerisque. 
+                       At consectetur lorem donec massa sapien faucibus et molestie ac. 
+                       Ut ornare lectus sit amet est placerat in egestas erat. Sagittis orci 
+                       a scelerisque purus semper. Augue neque gravida in fermentum et sollicitudin.
+
+                       Amet tellus cras adipiscing enim eu turpis egestas pretium. Vel facilisis 
+                       volutpat est velit egestas dui id ornare arcu. Id porta nibh venenatis cras.
+                       Odio eu feugiat pretium nibh ipsum. Et tortor consequat id porta nibh venenatis 
+                       cras sed felis. Ullamcorper sit amet risus nullam. Elit at imperdiet dui accumsan
+                       sit amet nulla facilisi. Interdum consectetur libero id faucibus nisl tincidunt 
+                       eget nullam non. Suspendisse ultrices gravida dictum fusce. Risus quis varius quam 
+                       quisque. Mollis aliquam ut porttitor leo a diam. Felis bibendum ut tristique et 
+                       egestas quis ipsum suspendisse. Magna eget est lorem ipsum dolor sit amet consectetur. 
+                       Sed euismod nisi porta lorem mollis aliquam.
+
+                      Viverra adipiscing at in tellus integer. Morbi tristique senectus et netus et malesuada.
+                       Nibh ipsum consequat nisl vel pretium lectus quam id. Nisi vitae suscipit tellus mauris
+                       a diam maecenas sed. Fermentum leo vel orci porta. Tellus in hac habitasse platea dictumst
+                       vestibulum rhoncus. Ac tortor vitae purus faucibus ornare suspendisse sed. Senectus et 
+                       netus et malesuada. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor.
+                       Bibendum at varius vel pharetra vel turpis nunc eget lorem. Elit at imperdiet dui accumsan.
+                       Nisi est sit amet facilisis magna." TextColor="White" TextType="Html" 
+                HorizontalTextAlignment="Center" Margin="20, 30" FontSize="Body"/>
+            </FlexLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Картинки">
+        <ScrollView>
+            <FlexLayout  Direction="Row" Wrap="Wrap" JustifyContent="SpaceAround">
+                <StackLayout VerticalOptions="End" HorizontalOptions="End" Margin="0, 20, 0, 20">
+                    <Image Source="https://pbs.twimg.com/media/EjO4g62X0Acvgto.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label Text="shutterstock/com * 1914257242" FontSize="7" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+                <StackLayout VerticalOptions="End" HorizontalOptions="End" Margin="0, 20, 0, 20">
+                    <Image Source="https://pbs.twimg.com/media/EjO4g62X0Acvgto.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label Text="shutterstock/com * 1914257242" FontSize="7" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+                <StackLayout VerticalOptions="End" HorizontalOptions="End" Margin="0, 20, 0, 20">
+                    <Image Source="https://pbs.twimg.com/media/EjO4g62X0Acvgto.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label Text="shutterstock/com * 1914257242" FontSize="7" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+                <StackLayout VerticalOptions="End" HorizontalOptions="End" Margin="0, 20, 0, 20">
+                    <Image Source="https://pbs.twimg.com/media/EjO4g62X0Acvgto.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label Text="shutterstock/com * 1914257242" FontSize="7" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+                <StackLayout VerticalOptions="End" HorizontalOptions="End" Margin="0, 20, 0, 20">
+                    <Image Source="https://pbs.twimg.com/media/EjO4g62X0Acvgto.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label Text="shutterstock/com * 1914257242" FontSize="7" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+                <StackLayout VerticalOptions="End" HorizontalOptions="End" Margin="0, 20, 0, 20">
+                    <Image Source="https://pbs.twimg.com/media/EjO4g62X0Acvgto.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label Text="shutterstock/com * 1914257242" FontSize="7" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+                <StackLayout VerticalOptions="End" HorizontalOptions="End" Margin="0, 20, 0, 20">
+                    <Image Source="https://pbs.twimg.com/media/EjO4g62X0Acvgto.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label Text="shutterstock/com * 1914257242" FontSize="7" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+                <StackLayout VerticalOptions="End" HorizontalOptions="End" Margin="0, 20, 0, 20">
+                    <Image Source="https://pbs.twimg.com/media/EjO4g62X0Acvgto.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label Text="shutterstock/com * 1914257242" FontSize="7" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </FlexLayout>
+        </ScrollView>
+    </ContentPage>
+
+        <ContentPage Title="Контакты">
+            <ScrollView>
+                <FlexLayout  Direction="Column" >
+                    <Entry x:Name="Login" BackgroundColor="Gray"
+                Placeholder="Email"
+                TextColor="White" 
+                HeightRequest="55" 
+                HorizontalTextAlignment="Center" Margin="30, 70, 30, 0"/>
+
+                    <Entry x:Name="Mail" 
+                Placeholder="Login"
+                IsPassword="True" 
+                Background="gray"
+                HeightRequest="55" 
+                HorizontalTextAlignment="Center"
+                TextColor="White" Margin="30, 50, 30, 0"/>
+                    
+                    <Entry x:Name="Password" 
+                Placeholder="Number"
+                IsPassword="True" 
+                Background="gray"
+                HeightRequest="55" 
+                HorizontalTextAlignment="Center"
+                TextColor="White" Margin="30, 50, 30, 0"/>
+                    <Entry x:Name="EPasswordReturn" 
+                
+                Placeholder="Adress"
+                IsPassword="True" 
+                Background="gray"
+                HeightRequest="55" 
+                HorizontalTextAlignment="Center"
+                TextColor="White" Margin="30, 50, 30, 0"/>
+                </FlexLayout>
+            </ScrollView>
+        </ContentPage>
+</TabbedPage>

@@ -2,11 +2,49 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FirstMobileApp.Projects_Page">
-    <ContentPage.Content>
+    <NavigationPage.TitleView>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="AddProject" Text="+" BackgroundColor="#2196f3" FontSize="Body" Margin="200, 0, 0,0"/>
         </StackLayout>
-    </ContentPage.Content>
+    </NavigationPage.TitleView>
+    <ScrollView>
+        <FlexLayout  Direction="Column" >
+            <Button x:Name="ProjectOne" Clicked="ProjectOne_Clicked" Text="Проект 1" TextColor="White" 
+                HeightRequest="55"
+                Margin="30, 30, 30, 0"/>
+            <Button x:Name="ProjectTwo"  Text="Проект 2"  TextColor="White" 
+                HeightRequest="55" 
+                Margin="30, 30, 30, 0"/>
+            <Button x:Name="ProjectThree" Text="Проект 3" TextColor="White" 
+                HeightRequest="55" 
+                Margin="30, 30, 30, 0"/>
+            <Button x:Name="ProjectFour" Text="Проект 4" TextColor="White" 
+                HeightRequest="55" 
+                Margin="30, 30, 30, 0"/>
+            <Button x:Name="ProjectFive" Text="Проект 5" TextColor="White" 
+                HeightRequest="55" 
+                Margin="30, 30, 30, 0"/>
+            <Button x:Name="ProjectSix" Text="Проект 6" TextColor="White" 
+                HeightRequest="55" 
+                Margin="30, 30, 30, 0"/>
+            <Button x:Name="ProjectSeven" Text="Проект 7" TextColor="White" 
+                HeightRequest="55" 
+                Margin="30, 30, 30, 0"/>
+            <Button x:Name="ProjectEight" Text="Проект 8" TextColor="White" 
+                HeightRequest="55" 
+                Margin="30, 30, 30, 0"/>
+            <Button x:Name="ProjectNine" Text="Проект 9" TextColor="White" 
+                HeightRequest="55" 
+                Margin="30, 30, 30, 0"/>
+            <Button x:Name="ProjectTen" Text="Проект 10" TextColor="White" 
+                HeightRequest="55" 
+                Margin="30, 30, 30, 0"/>
+            <Button x:Name="ProjectEleven" Text="Проект 11" TextColor="White" 
+                HeightRequest="55" 
+                Margin="30, 30, 30, 0"/>
+            <Button x:Name="ProjectTwelve" Text="Проект 12" TextColor="White" 
+                HeightRequest="55" 
+                Margin="30, 30, 30, 0"/>
+        </FlexLayout>
+    </ScrollView>
 </ContentPage>

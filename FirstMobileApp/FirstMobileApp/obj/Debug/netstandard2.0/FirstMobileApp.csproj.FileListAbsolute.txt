@@ -14,3 +14,5 @@ C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Deb
 C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Debug\netstandard2.0\ref\FirstMobileApp.dll
 C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Debug\netstandard2.0\FirstMobileApp.pdb
 C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Debug\netstandard2.0\RegPage.xaml.g.cs
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Debug\netstandard2.0\Projects_Page.xaml.g.cs
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Debug\netstandard2.0\InfoProjectOne.xaml.g.cs

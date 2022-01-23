@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace FirstMobileApp
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Projects_Page : ContentPage
+    public partial class InfoProjectOne : TabbedPage
     {
-        public Projects_Page()
+        public InfoProjectOne()
         {
             InitializeComponent();
-        }
-
-        private async void ProjectOne_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new InfoProjectOne());
         }
     }
 }

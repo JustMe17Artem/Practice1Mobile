@@ -12,37 +12,55 @@
             <Button x:Name="ProjectOne" Clicked="ProjectOne_Clicked" Text="Проект 1" TextColor="White" 
                 HeightRequest="55"
                 Margin="30, 30, 30, 0"/>
-            <Button x:Name="ProjectTwo"  Text="Проект 2"  TextColor="White" 
+            <Button x:Name="ProjectTwo" Clicked="ProjectOne_Clicked"  Text="Проект 2"  TextColor="White" 
                 HeightRequest="55" 
                 Margin="30, 30, 30, 0"/>
-            <Button x:Name="ProjectThree" Text="Проект 3" TextColor="White" 
+            <Button x:Name="ProjectThree" Clicked="ProjectOne_Clicked"  Text="Проект 3" TextColor="White" 
                 HeightRequest="55" 
                 Margin="30, 30, 30, 0"/>
-            <Button x:Name="ProjectFour" Text="Проект 4" TextColor="White" 
+            <Button x:Name="ProjectFour" Clicked="ProjectOne_Clicked"  Text="Проект 4" TextColor="White" 
                 HeightRequest="55" 
                 Margin="30, 30, 30, 0"/>
-            <Button x:Name="ProjectFive" Text="Проект 5" TextColor="White" 
+            <Button x:Name="ProjectFive" Clicked="ProjectOne_Clicked"  Text="Проект 5" TextColor="White" 
                 HeightRequest="55" 
                 Margin="30, 30, 30, 0"/>
-            <Button x:Name="ProjectSix" Text="Проект 6" TextColor="White" 
+            <Button x:Name="ProjectSix" Clicked="ProjectOne_Clicked"  Text="Проект 6" TextColor="White" 
                 HeightRequest="55" 
                 Margin="30, 30, 30, 0"/>
-            <Button x:Name="ProjectSeven" Text="Проект 7" TextColor="White" 
+            <Button x:Name="ProjectSeven" Clicked="ProjectOne_Clicked"  Text="Проект 7" TextColor="White" 
                 HeightRequest="55" 
                 Margin="30, 30, 30, 0"/>
-            <Button x:Name="ProjectEight" Text="Проект 8" TextColor="White" 
+            <Button x:Name="ProjectEight" Clicked="ProjectOne_Clicked"  Text="Проект 8" TextColor="White" 
                 HeightRequest="55" 
                 Margin="30, 30, 30, 0"/>
-            <Button x:Name="ProjectNine" Text="Проект 9" TextColor="White" 
+            <Button x:Name="ProjectNine" Clicked="ProjectOne_Clicked"  Text="Проект 9" TextColor="White" 
                 HeightRequest="55" 
                 Margin="30, 30, 30, 0"/>
-            <Button x:Name="ProjectTen" Text="Проект 10" TextColor="White" 
+            <Button x:Name="ProjectTen" Clicked="ProjectOne_Clicked"  Text="Проект 10" TextColor="White" 
                 HeightRequest="55" 
                 Margin="30, 30, 30, 0"/>
-            <Button x:Name="ProjectEleven" Text="Проект 11" TextColor="White" 
+            <Button x:Name="ProjectEleven" Clicked="ProjectOne_Clicked"  Text="Проект 11" TextColor="White" 
                 HeightRequest="55" 
                 Margin="30, 30, 30, 0"/>
-            <Button x:Name="ProjectTwelve" Text="Проект 12" TextColor="White" 
+            <Button x:Name="ProjectTwelve" Clicked="ProjectOne_Clicked"  Text="Проект 12" TextColor="White" 
+                HeightRequest="55" 
+                Margin="30, 30, 30, 0"/>
+            <Button x:Name="ProjectThirteen" Clicked="ProjectOne_Clicked"  Text="Проект 13" TextColor="White" 
+                HeightRequest="55" 
+                Margin="30, 30, 30, 0"/>
+            <Button x:Name="ProjectFourteen" Clicked="ProjectOne_Clicked"  Text="Проект 14" TextColor="White" 
+                HeightRequest="55" 
+                Margin="30, 30, 30, 0"/>
+            <Button x:Name="ProjectFifteen" Clicked="ProjectOne_Clicked"  Text="Проект 15" TextColor="White" 
+                HeightRequest="55" 
+                Margin="30, 30, 30, 0"/>
+            <Button x:Name="ProjectSixteen" Clicked="ProjectOne_Clicked"  Text="Проект 16" TextColor="White" 
+                HeightRequest="55" 
+                Margin="30, 30, 30, 0"/>
+            <Button x:Name="ProjectSeventeen" Clicked="ProjectOne_Clicked"  Text="Проект 17" TextColor="White" 
+                HeightRequest="55" 
+                Margin="30, 30, 30, 0"/>
+            <Button x:Name="ProjectEighteen" Clicked="ProjectOne_Clicked"  Text="Проект 18" TextColor="White" 
                 HeightRequest="55" 
                 Margin="30, 30, 30, 0"/>
         </FlexLayout>

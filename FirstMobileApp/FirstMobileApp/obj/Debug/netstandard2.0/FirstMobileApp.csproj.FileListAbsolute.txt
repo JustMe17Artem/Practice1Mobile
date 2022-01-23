@@ -1,0 +1,16 @@
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\bin\Debug\netstandard2.0\FirstMobileApp.deps.json
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\bin\Debug\netstandard2.0\FirstMobileApp.dll
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\bin\Debug\netstandard2.0\ref\FirstMobileApp.dll
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\bin\Debug\netstandard2.0\FirstMobileApp.pdb
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Debug\netstandard2.0\FirstMobileApp.csproj.AssemblyReference.cache
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Debug\netstandard2.0\FirstMobileApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Debug\netstandard2.0\FirstMobileApp.AssemblyInfoInputs.cache
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Debug\netstandard2.0\FirstMobileApp.AssemblyInfo.cs
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Debug\netstandard2.0\FirstMobileApp.csproj.CoreCompileInputs.cache
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Debug\netstandard2.0\FirstMobileApp.dll
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Debug\netstandard2.0\ref\FirstMobileApp.dll
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Debug\netstandard2.0\FirstMobileApp.pdb
+C:\Users\Guest\source\repos\FirstMobileApp\FirstMobileApp\FirstMobileApp\obj\Debug\netstandard2.0\RegPage.xaml.g.cs
